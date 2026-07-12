@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
 }
-body{
+/* body{
   background-color: rgb(136, 136, 136);
-}
+} */
 /* common styles */
 .common-font {
   font-family: "Inter", sans-serif;
@@ -45,8 +45,10 @@ body{
   font-size: 10px;
   margin-left: auto;
   margin-right: 50px;
+  margin-top:5px;
 }
 .logo h1{
+ 
   line-height: .9;
 }
 
@@ -86,7 +88,7 @@ body{
   height: 700px;
   margin: 20px auto;
   background: url("./images/Background.png");
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3) rgba(0, 0,0, 0.3);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -144,3 +146,32 @@ line-height: 1.5;
   margin-top: 10px;
   margin-bottom: 15px;
 }
+
+/* Host Cities section */
+
+.card{
+display: flex;
+gap: 50px;
+
+
+ 
+}
+.card h2{
+  margin-top:20px ;
+  margin-bottom: 10px;
+  font-size:40px ;
+}
+.card p{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* .card{
+ display: flex;
+}
+.card{
+ display: flex;
+}
+.card-4{
+ display: flex;
+} */
