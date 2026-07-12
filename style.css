@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* common styles */
+.font {
+  font-family: "Inter", sans-serif;
+}
+
+/* navbar */
+.nav-all {
+  width: fit-content;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-items: center;
+
+  /* gap: 200px; */
+}
+.logo {
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: 50px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.buy-tickets-btn {
+  font-family: "Host Grotesk", sans-serif;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  padding: 12px 15px 12px 24px;
+  font-size: 16px;
+  font-width: 600;
+  background-color: #e8ba2e;
+  border: none;
+  border-radius: 5px;
+}
+.nav-menu li {
+  list-style-type: none;
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: #575757;
+  font-family: "Host Grotesk", sans-serif;
+  font-size: 16px;
+  font-width: 500;
+}
+.hero-section {
+  max-width: 1200px;
+  height: 700px;
+  margin: 20px auto;
+  background: url("./images/Background.png");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: bottom;
+  display: grid;
+  align-items: end;      
+  justify-items: start;
+ 
+}
+.hero-content h1{
+color: white;
+font-size: 80px;
+
+}
