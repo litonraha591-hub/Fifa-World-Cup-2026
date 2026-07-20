@@ -215,3 +215,19 @@ align-items: center;
 margin: 30px auto;
 padding: 20px;
 }
+
+/* table section  */
+table{
+  border: 1px solid black;
+  margin:70px auto;
+  padding:5px;
+  border-spacing: 1px;
+}
+
+th{
+background-color: red;
+border: 1px solid black;
+}
+td{
+  border:1px solid black;
+}
