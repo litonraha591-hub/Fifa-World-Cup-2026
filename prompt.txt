@@ -1,0 +1,1 @@
+i have a website where fifa world cup`s some section`s are shown. here navigation bar, hero section, tickets sections, hosts cities, schedule table, missing secition and footer sections. Here suggest me whose section cai i used in the missing section. please give me this image format
